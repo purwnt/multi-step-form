@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Test Assessment
 
-## Getting Started
+## Candidate
 
-First, run the development server:
+..write your name here...
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Objective:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Implement a multi-step form wizard in a React app using TypeScript
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Instructions:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Create a new React app using TypeScript.
+Implement a multi-step form wizard with at least 3 steps.
+The form should include the following features:
 
-## Learn More
+- [ ] Each step should display a set of questions or inputs.
+- [ ] Provide a "Next" button to navigate to the next step, and a "Previous" button to go back.
+- [ ] On the final step, include a "Submit" button.
+- [ ] After submission, display the submitted answers in a designated bottom section.
+- [ ] Implement a reset function that clears the form data after submission.
+- [ ] All fields should be required, and appropriate error messages should be displayed for empty required fields.
+- [ ] Include validation to ensure all required fields are filled before proceeding to the next step.
+- [ ] Add a condition where the "Next" button is enabled only if all fields in the current step are filled.
 
-To learn more about Next.js, take a look at the following resources:
+NOTE:
+suggestion lib form: react-hook-form
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Assessment Criteria:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The assessment will be based on the following:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Minimal UI are allowed.
+- Correct implementation of a React app with TypeScript.
+- Proper organization and structure of the multi-step form wizard.
+- Functionality to navigate between steps using "Next" and "Previous" buttons.
+- Submission of the form and display of the submitted answers.
+- Reset functionality after submission.
+- Field validation to ensure required fields are filled.
+- Condition to enable the "Next" button when all fields in the current step are filled.
+- Code cleanliness, readability, and adherence to best practices.
